@@ -1,0 +1,11 @@
+streamlit
+pandas
+numpy
+scikit-learn
+statsmodels
+lifelines
+bcrypt
+cryptography
+python-docx
+reportlab
+SQLAlchemy
