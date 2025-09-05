@@ -5,6 +5,12 @@ import pandas as pd
 import numpy as np
 import re
 from datetime import datetime
+import sys
+
+# Add the project's root directory to the Python path
+# This is a robust way to handle imports in different environments
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
 from app.auth import authenticate, get_user_store, register_user, get_current_user
 from app.db import Study, Form, Submission, init_db, get_session
 from app.form_utils import TEMPLATE_FIELDS, save_form_schema
